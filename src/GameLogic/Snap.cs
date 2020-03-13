@@ -146,11 +146,20 @@ namespace CardGames.GameLogic
 				_score[player]++;
 				//TODO: consider playing a sound here...
 			}
+			else if (SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
+			{
+				myGame.PlayerHit(1);
+			}
 
-			// stop the game...
+
+			// the game...
 			_started = false;
 			_gameTimer.Stop();
-		}
+
+
+	
+
+
 	
 		#region Snap Game Unit Tests
 		#if DEBUG
