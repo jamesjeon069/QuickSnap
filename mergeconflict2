@@ -1,8 +1,0 @@
-class program
-
-public static Main(string[] args)
-{
-  Console.WriteLine("This is made for merge conflict 2");
-  Console.WriteLine("This line is going to be changedsdfsdf");
-  //Console.WriteLine("This line is going to be changed too");
-}
