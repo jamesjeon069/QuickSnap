@@ -3,4 +3,6 @@ class Program
 public static Main(string[] args)
 {
   Console.WriteLine("This is merge conflict 1");
+  Console.WriteLine("This line is going to be changed");
+  Console.WriteLine("This line stays");
 }
