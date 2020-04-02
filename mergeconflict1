@@ -1,0 +1,6 @@
+class Program
+
+public static Main(string[] args)
+{
+  Console.WriteLine("This is merge conflict 1");
+}
